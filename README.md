@@ -76,7 +76,7 @@ A arquitetura empregada neste projeto adota a Clean Architecture, combinada com 
 
 #### Estrutrura base do projeto
 ROOT  
-  ├ __api|web__ (API ou Aplicação Web)  
+  ├ __api__ (API)  
   │   pom.xml  
   ├ modules  
   │   ├ __application__ (Casos de uso / Serviços de Aplicação)  
