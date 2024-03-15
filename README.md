@@ -3,7 +3,9 @@
 2. [Arquitetura](#arquitetura)
 3. [Testes](#testes)
 4. [Setup](#setup)
-5. [Documentação da API](#api)
+5. <details>
+    <summary>Documentação da API</summary>
+
     - [User Endpoints](#user-endpoints)
         - [Criar Usuário](#criar-usuario)
         - [Obter Todos os Usuários](#obter-todos-os-usuarios)
@@ -40,6 +42,8 @@
     - [ChartData Endpoints](#chart-data-endpoints)
         - [Get Chart Data](#get-chart-data)
 
+  </details>
+
 ---
 
 ## <a name="skill-scan"></a>Skill Scan(Diagnóstico de Conhecimento)
@@ -75,17 +79,17 @@ A arquitetura empregada neste projeto adota a Clean Architecture, combinada com 
     A divisão clara de responsabilidades facilita a adição de novos recursos, evolução da aplicação e manutenção sustentável ao longo do tempo.
 
 #### Estrutrura base do projeto
-ROOT  
-  ├ __api__ (API)  
-  │   pom.xml  
-  ├ modules  
-  │   ├ __application__ (Casos de uso / Serviços de Aplicação)  
-  │   │   pom.xml  
-  │   ├ __domain__ (Model's / Repositórios e Serviços associados aos Models)  
-  │   │   pom.xml  
-  │   └ __infrastructure__ (Implementações utilizando dependências externas)  
-  │       pom.xml  
-  └ pom.xml
+    ROOT  
+      ├ __api__ (API)  
+      │   pom.xml  
+      ├ modules  
+      │   ├ __application__ (Casos de uso / Serviços de Aplicação)  
+      │   │   pom.xml  
+      │   ├ __domain__ (Model's / Repositórios e Serviços associados aos Models)  
+      │   │   pom.xml  
+      │   └ __infrastructure__ (Implementações utilizando dependências externas)  
+      │       pom.xml  
+      └ pom.xml
 
 #### API
 Projeto web com os pontos de interação com o usuário, irá conter:
