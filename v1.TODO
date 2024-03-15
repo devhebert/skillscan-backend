@@ -1,0 +1,9 @@
+##BACK END
+- Criar testes unitários para aumentar a cobertura
+
+##FRONT END
+- Criar documentação de componentes
+- Ajustar componentes para armazenar os dados da tabela sem ficar dando hit no back para pegar sem estar atualizado
+- Ajustar responsividade
+- Criar authenticação para enviar token no header
+- Criar urls para navegação
